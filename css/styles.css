@@ -600,7 +600,7 @@
     left: 463px
 }
 
-.buttons {
+.buttons-area {
     display: flex;
     gap: 5px;
     justify-content: center;
