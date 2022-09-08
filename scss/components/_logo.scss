@@ -1,0 +1,29 @@
+/* First logo */
+
+.logo {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+}
+
+
+.logo--second-header {
+    color: var(--black-color);
+}
+
+/* Second logo */
+
+.footer-logo {
+    background-color: var(--background-dark-color);
+    padding: 60px 0;
+}
+
+.logo--second-footer {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--white-color);
+}

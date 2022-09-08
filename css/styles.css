@@ -764,7 +764,7 @@
     pointer-events: none;
 }
 
-.modal h3 {
+.modal-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -898,7 +898,7 @@
     color: var(--accent-color);
 }
 
-.modal-form button {
+.modal-form-policy button {
     width: 200px;
     height: 50px;
     background: var(--accent-color);
@@ -913,7 +913,7 @@
 }
 
 
-.user-policy span {
+.form-checkbox-accept {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -937,7 +937,7 @@
     left: 54px;   
 }
 
-.modal-form-policy:checked + .user-policy::before {
+.modal-form-policy:checked + .form-checkbox-accept::before {
     background-color: var(--accent-color);
     border: none;
     background-image: url(../Images/Checked.svg);

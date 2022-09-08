@@ -1,0 +1,37 @@
+:root {
+    --main-color: #212121;
+    --accent-color: #2196f3;
+    --descriptions-color: #757575;
+    --background-dark-color: #2f303a;
+    --background-light-color: #f5f4fa;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --client-list-color: #AFB1B8;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: var(--main-color);
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+.section {
+    padding: 94px 0;
+}
