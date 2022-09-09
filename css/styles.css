@@ -431,7 +431,11 @@
     letter-spacing: 0.03em;
 }
 
-.adress-info__email
+.adress-info__email {
+    margin-right: 10px;
+}
+
+.adress-info__email,
 .adress-info__telephone {
     text-decoration: none;
     color: var(--grey-color);
@@ -721,7 +725,7 @@
     padding-right: 45px;
 }
 
-.project-box:hover .overlay{
+.projects-img__box:hover .projects-img__box--overlay {
     transform: translateY(0);
 }
 
