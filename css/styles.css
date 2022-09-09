@@ -849,7 +849,7 @@
 }
 
 
-.modal-form label {
+.modal-form-blanks {
     position: relative;
 }
 
@@ -913,7 +913,7 @@
     color: var(--accent-color);
 }
 
-.modal-form-policy button {
+.modal-button {
     width: 200px;
     height: 50px;
     background: var(--accent-color);

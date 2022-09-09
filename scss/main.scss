@@ -1,8 +1,15 @@
-
-@import "./utils/visually-hidden";
-
 @import "./base/common";
 
 @import "./components/logo";
+@import "./components/modal-backdrop";
 
+@import "./partials/header";
+@import "./partials/main-site";
+@import "./partials/main-list";
+@import "./partials/main-jobs";
+@import "./partials/main-team";
+@import './partials/main-clients';
+@import "./partials/footer";
+
+@import "./utils/visually-hidden";
 @import "./utils/vars";
