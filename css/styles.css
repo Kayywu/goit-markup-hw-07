@@ -460,7 +460,7 @@
 
 .footer-socials {
     position: absolute;
-    left: 550px;
+    left: 460px;
 }
 
 .footer-socials__title {
@@ -503,6 +503,9 @@
 
 /* NEWSLETTER FOOTER */
 
+.footer-div-newsletter {
+    margin-left: 200px;
+}
 
 .footer-newsletter {
     display: flex;
