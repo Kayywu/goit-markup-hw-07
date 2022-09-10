@@ -808,7 +808,7 @@
     fill: var(--accent-color);
 }
 
-.modal-form-blank:focus {
+.modal-form-blanks:focus {
     fill: var(--accent-color);
 }
 
@@ -848,10 +848,10 @@
     border-color: var(--accent-color);
 }
 
-
-.modal-form-blanks {
-    position: relative;
+.modal-form-input:hover {
+    border-color: var(--accent-color);
 }
+
 
 .modal-form-comment-area span {
     font-family: 'Roboto';
@@ -879,6 +879,10 @@
 }
 
 .modal-form-comment:focus-within {
+    border-color: var(--accent-color);
+}
+
+.modal-form-comment:hover {
     border-color: var(--accent-color);
 }
 
