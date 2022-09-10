@@ -6,10 +6,15 @@
     font-size: 26px;
     font-weight: 700;
 
-&--second-header {
+    &--first {
+        margin: 24px 93px 25px 0;
+    }
+      
+    &--second-header {
     color: var(--black-color);
-}
-&--second-footer {
+    }
+
+    &--second-footer {
     font-family: "Raleway", sans-serif;
     color: var(--white-color);
 }
