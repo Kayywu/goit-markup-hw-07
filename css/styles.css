@@ -952,7 +952,7 @@
     left: 54px;   
 }
 
-.modal-form-policy:checked + .form-checkbox-accept::before {
+.modal-form-policy:checked + .user-policy::before {
     background-color: var(--accent-color);
     border: none;
     background-image: url(../Images/Checked.svg);
