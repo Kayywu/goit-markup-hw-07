@@ -48,7 +48,7 @@
     pointer-events: none;
 }
 
-.modal-title {
+.modal__title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -60,12 +60,12 @@
     margin: 40px 40px 12px 40px;
 }
 
-.modal-form {
+.modal__form {
 	display: flex;
 	flex-direction: column;
 }
 
-.modal-form-blanks {
+.modal__blanks {
 	position: relative;
 	width: 100%;
 	margin: 0 0 20px;
@@ -78,14 +78,14 @@
 	}
 }
 
-.modal-form-icon {
+.modal__icon {
     position: absolute;
     top: 29px;
     left: 50px;
 }
 
 
-.modal-form-blanks span {
+.modal__type-name {
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
