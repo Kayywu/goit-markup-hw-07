@@ -599,17 +599,13 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3) inset;
 }
 
-.footer__newsletter-button svg {
-    margin-left: 24px;
-}
-
 .footer__newsletter-button--position {
+    margin-left: 24px;
     position: absolute;
     top: 13px;
     right: 25px;
     fill: var(--white-color);
 }
-
 
 
 /* PORTFOLIO */
