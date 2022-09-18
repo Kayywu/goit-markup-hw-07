@@ -364,7 +364,7 @@
 /* another section */
 
 
-.container__caption {
+.section-clients__caption {
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
@@ -374,14 +374,14 @@
     margin-bottom: 50px;
 }
 
-.list-fill {
+.section-clients__list {
     list-style: none;
     display: flex;
     gap: 30px;
     fill: var(--client-list-color);
 }
 
-.container__clients {
+.section-clients__logo {
     width: 170px;
     height: 92px;
     border: 1px solid var(--client-list-color);
@@ -399,8 +399,8 @@
 }
 
 
-.container__clients:hover,
-.container__clients:focus {
+.section-clients__logo:hover,
+.section-clients__logo:focus {
     border: 1px solid var(--accent-color);
     fill: var(--accent-color);
     cursor: pointer;
