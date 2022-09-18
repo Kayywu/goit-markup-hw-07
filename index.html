@@ -62,13 +62,13 @@
         <section class="section container">
                 <ul class="section-list">
                     <li>
-                        <div class="section-list-image">
+                        <div class="section-list__image">
                             <svg width="70" height="70">
                                 <use href="./Images/symbol-defs.svg#icon-antenna-1"></use>
                             </svg>
                         </div>
-                    <h3 class="section-list-title"> Lorem, ipsum.</h3>
-                        <p class="section-list-text">
+                    <h3 class="section-list__title"> Lorem, ipsum.</h3>
+                        <p class="section-list__text">
                         Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit. Nam vel arcu sem. Sed 
                         non sodales dui. Interdum et malesuada
@@ -76,13 +76,13 @@
                     </li>
 
                 <li>
-                    <div class="section-list-image">
+                    <div class="section-list__image">
                         <svg width="70" height="70">
                             <use href="./Images/symbol-defs.svg#icon-clock-1"></use>
                         </svg>
                     </div>
-                    <h3 class="section-list-title"> Lorem, ipsum.</h3>
-                    <p class="section-list-text">
+                    <h3 class="section-list__title"> Lorem, ipsum.</h3>
+                    <p class="section-list__text">
                         Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit. Nam vel arcu sem. Sed
                         non sodales dui. Interdum et malesuada
@@ -90,13 +90,13 @@
                 </li>
 
                     <li>
-                        <div class="section-list-image">
+                        <div class="section-list__image">
                             <svg width="70" height="70">
                                 <use href="./Images/symbol-defs.svg#icon-diagram-1"></use>
                             </svg>
                         </div>
-                    <h3 class="section-list-title"> Lorem, ipsum.</h3>
-                    <p class="section-list-text">
+                    <h3 class="section-list__title"> Lorem, ipsum.</h3>
+                    <p class="section-list__text">
                         Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit. Nam vel arcu sem. Sed
                         non sodales dui. Interdum et malesuada
@@ -104,13 +104,13 @@
                     </li>
                     
                     <li>
-                        <div class="section-list-image">
+                        <div class="section-list__image">
                             <svg width="70" height="70">
                                 <use href="./Images/symbol-defs.svg#icon-astronaut-1"></use>
                             </svg>
                         </div>
-                    <h3 class="section-list-title"> Lorem, ipsum. </h3>
-                    <p class="section-list-text">
+                    <h3 class="section-list__title"> Lorem, ipsum. </h3>
+                    <p class="section-list__text">
                         Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit. Nam vel arcu sem. Sed
                         non sodales dui. Interdum et malesuada
@@ -121,16 +121,16 @@
 
 
         <section class="section container section-jobs">
-                <h2 class="section__title">Czym się zajmujemy</h2>
-                <ul class="section-list">
+                <h2 class="section-jobs__title">Czym się zajmujemy</h2>
+                <ul class="section-jobs__list">
                      <li class="section-jobs__item">
                         <img
                          src="Images/photo1.jpg"
                          alt="Photo1"
                         width="370"
                         height="294">
-                        <div class="section-list--bcground">
-                            <p class="section-list-cap">aplikacje komputerowe</p>
+                        <div class="section-jobs__item--bcground">
+                            <p class="section-jobs__type">aplikacje komputerowe</p>
                         </div>
                      </li>
                      <li class="section-jobs__item">
@@ -139,8 +139,8 @@
                         alt="Photo2"
                         width="370"
                         height="294">
-                        <div class="section-list--bcground">
-                            <p class="section-list-cap">aplikacje mobilne</p>
+                        <div class="section-jobs__item--bcground">
+                            <p class="section-jobs__type">aplikacje mobilne</p>
                         </div>
                     </li>
                     <li class="section-jobs__item">
@@ -149,45 +149,46 @@
                         alt="Photo3"
                         width="370"
                         height="294">
-                        <div class="section-list--bcground">
-                            <p class="section-list-cap">rozwiązania graficzne</p>
+                        <div class="section-jobs__item--bcground">
+                            <p class="section-jobs__type">rozwiązania graficzne</p>
                         </div>
                     </li>
                     </ul>
         </section>
 
 
-        <section class="section container-team">
+        <section class="section section-team">
             <div class="container">
-            <h2 class="team-caption"> Nasz zespół </h2>
-            <ul class="list list-padding">
+            <h2 class="section-team__caption"> Nasz zespół </h2>
+            <ul class="section-team__list">
                 <li>
-                    <figure class="container-team__worker">
+                    <figure class="section-team__worker">
                     <img 
+                        class="section-team__img"
                         src="Images/ProduktDesigner.jpg"
                         alt="John1"
                         width="270"
                         height="368">
-                        <figcaption class="container-team__about">
-                            <h4 class="container-team__about--title">John Doe</h4> 
-                            <p class="container-team__about--profession">Product Design</p>
-                            <ul class="container-team__about--list">
-                                <li class="container-team__about--img">
+                        <figcaption>
+                            <h4 class="section-team__name">John Doe</h4> 
+                            <p class="section-team__profession">Product Design</p>
+                            <ul class="section-team__social-list">
+                                <li class="section-team__social-img">
                                     <svg width="20" height="20">
                                         <use href="./Images/symbol-defs.svg#icon-instagram-2"></use>
                                     </svg>
                                 </li>
-                                <li class="container-team__about--img">
+                                <li class="section-team__social-img">
                                     <svg width="20" height="20">
                                     <use href="./Images/symbol-defs.svg#icon-twitter-1"></use>
                                     </svg>
                                 </li>
-                                <li class="container-team__about--img">
+                                <li class="section-team__social-img">
                                     <svg width="20" height="20">
                                         <use href="./Images/symbol-defs.svg#icon-facebook-1"></use>
                                     </svg>
                                 </li>
-                                <li class="container-team__about--img">
+                                <li class="section-team__social-img">
                                 <svg width="20" height="20">
                                     <use href="./Images/symbol-defs.svg#icon-linkedin-1"></use>
                                 </svg>
@@ -197,32 +198,33 @@
                     </figure>
                 </li>
                     <li>
-                        <figure class="container-team__worker">
+                        <figure class="section-team__worker">
                         <img
+                        class="section-team__img"
                         src="Images/FrontEnd.jpg"
                         alt="John2"
                         width="270"
                         height="368">
-                    <figcaption class="container-team__about">
-                        <h4 class="container-team__about--title">John Doe</h4> 
-                        <p class="container-team__about--profession">Frontend Developer</p>
-                        <ul class="container-team__about--list">
-                            <li class="container-team__about--img">
+                    <figcaption>
+                        <h4 class="section-team__name">John Doe</h4> 
+                        <p class="section-team__profession">Frontend Developer</p>
+                        <ul class="section-team__social-list">
+                            <li class="section-team__social-img">
                                 <svg width="20" height="20">
                                     <use href="./Images/symbol-defs.svg#icon-instagram-2"></use>
                                 </svg>
                             </li>
-                            <li class="container-team__about--img">
+                            <li class="section-team__social-img">
                                 <svg width="20" height="20">
                                 <use href="./Images/symbol-defs.svg#icon-twitter-1"></use>
                                 </svg>
                             </li>
-                            <li class="container-team__about--img">
+                            <li class="section-team__social-img">
                                 <svg width="20" height="20">
                                     <use href="./Images/symbol-defs.svg#icon-facebook-1"></use>
                                 </svg>
                             </li>
-                            <li class="container-team__about--img">
+                            <li class="section-team__social-img">
                             <svg width="20" height="20">
                                 <use href="./Images/symbol-defs.svg#icon-linkedin-1"></use>
                             </svg>
@@ -232,32 +234,33 @@
                         </figure>
                     </li>
                     <li>
-                        <figure class="container-team__worker">
+                        <figure class="section-team__worker">
                         <img
+                        class="section-team__img"
                         src="Images/marketing.jpg"
                         alt="John3"
                         width="270"
                         height="368">
-                        <figcaption class="container-team__about">
-                            <h4 class="container-team__about--title">John Doe</h4>
-                            <p class="container-team__about--profession">Marketing</p>
-                            <ul class="container-team__about--list">
-                                <li class="container-team__about--img">
+                        <figcaption>
+                            <h4 class="section-team__name">John Doe</h4>
+                            <p class="section-team__profession">Marketing</p>
+                            <ul class="section-team__social-list">
+                                <li class="section-team__social-img">
                                     <svg width="20" height="20">
                                         <use href="./Images/symbol-defs.svg#icon-instagram-2"></use>
                                     </svg>
                                 </li>
-                                <li class="container-team__about--img">
+                                <li class="section-team__social-img">
                                     <svg width="20" height="20">
                                     <use href="./Images/symbol-defs.svg#icon-twitter-1"></use>
                                     </svg>
                                 </li>
-                                <li class="container-team__about--img">
+                                <li class="section-team__social-img">
                                     <svg width="20" height="20">
                                         <use href="./Images/symbol-defs.svg#icon-facebook-1"></use>
                                     </svg>
                                 </li>
-                                <li class="container-team__about--img">
+                                <li class="section-team__social-img">
                                 <svg width="20" height="20">
                                     <use href="./Images/symbol-defs.svg#icon-linkedin-1"></use>
                                 </svg>
@@ -268,32 +271,33 @@
                     </li>
 
                     <li>
-                        <figure class="container-team__worker">
+                        <figure class="section-team__worker">
                         <img
+                        class="section-team__img"
                         src="Images/UI.jpg"
                         alt="UI"
                         width="270"
                         height="368">
-                        <figcaption class="container-team__about">
-                            <h4 class="container-team__about--title">John Doe</h4>
-                            <p class="container-team__about--profession">UI Designer</p>
-                            <ul class="container-team__about--list">
-                                <li class="container-team__about--img">
+                        <figcaption>
+                            <h4 class="section-team__name">John Doe</h4>
+                            <p class="section-team__profession">UI Designer</p>
+                            <ul class="section-team__social-list">
+                                <li class="section-team__social-img">
                                     <svg width="20" height="20">
                                         <use href="./Images/symbol-defs.svg#icon-instagram-2"></use>
                                     </svg>
                                 </li>
-                                <li class="container-team__about--img">
+                                <li class="section-team__social-img">
                                     <svg width="20" height="20">
                                     <use href="./Images/symbol-defs.svg#icon-twitter-1"></use>
                                     </svg>
                                 </li>
-                                <li class="container-team__about--img">
+                                <li class="section-team__social-img">
                                     <svg width="20" height="20">
                                         <use href="./Images/symbol-defs.svg#icon-facebook-1"></use>
                                     </svg>
                                 </li>
-                                <li class="container-team__about--img">
+                                <li class="section-team__social-img">
                                 <svg width="20" height="20">
                                     <use href="./Images/symbol-defs.svg#icon-linkedin-1"></use>
                                 </svg>
