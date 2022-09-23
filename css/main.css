@@ -48,6 +48,14 @@
   padding: 60px 0;
 }
 
+.logo--second-footer {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--white-color);
+}
+
 /* Okno modalne BACKDROP */
 .backdrop {
   position: fixed;
@@ -571,20 +579,10 @@
   background-color: var(--background-dark-color);
   padding: 60px 0;
 }
-
-.footer-info {
+.footer__info {
   display: flex;
 }
-
-.logo--second-footer {
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  color: var(--white-color);
-}
-
-.adress-info {
+.footer__adress {
   color: var(--white-color);
   font-size: 14px;
   font-weight: 400;
@@ -597,18 +595,16 @@
   margin-right: 70px;
   margin-bottom: 60px;
 }
-.adress-info__place {
+.footer__adress-text {
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
 }
-.adress-info__email {
+.footer__adress-email {
   margin-right: 10px;
 }
-
-.adress-info__email,
-.adress-info__telephone {
+.footer__adress-email, .footer__adress-telephone {
   text-decoration: none;
   color: var(--grey-color);
   font-style: normal;
@@ -621,26 +617,14 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.adress-info__email:focus {
+.footer__adress-email:focus, .footer__adress-email:hover, .footer__adress-telephone:focus, .footer__adress-telephone:hover {
   color: var(--accent-color);
 }
-.adress-info__email:hover {
-  color: var(--accent-color);
-}
-
-.adress-info__telephone:focus {
-  color: var(--accent-color);
-}
-.adress-info__telephone:hover {
-  color: var(--accent-color);
-}
-
-.footer-socials {
+.footer__adress-email__socials, .footer__adress-telephone__socials {
   position: absolute;
   left: 460px;
 }
-.footer-socials__title {
+.footer__adress-email__socials-title, .footer__adress-telephone__socials-title {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
@@ -650,11 +634,11 @@
   color: var(--white-color);
   margin-bottom: 20px;
 }
-.footer-socials__list {
+.footer__adress-email__socials-list, .footer__adress-telephone__socials-list {
   display: flex;
   gap: 10px;
 }
-.footer-socials__pics {
+.footer__adress-email__socials-pics, .footer__adress-telephone__socials-pics {
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -668,7 +652,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-socials__pics:hover, .footer-socials__pics:focus {
+.footer__adress-email__socials-pics:hover, .footer__adress-email__socials-pics:focus, .footer__adress-telephone__socials-pics:hover, .footer__adress-telephone__socials-pics:focus {
   background-color: var(--accent-color);
   cursor: pointer;
   fill: var(--white-color);
@@ -676,6 +660,9 @@
 
 /* NEWSLETTER FOOTER */
 .footer-newsletter {
+  margin-left: 200px;
+}
+.footer-newsletter__form {
   display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
@@ -708,8 +695,7 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
-.footer-newsletter-title {
+.footer-newsletter__title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -720,8 +706,14 @@
   margin-left: 78px;
   margin-bottom: 20px;
 }
-
-.footer_newsletter-button {
+.footer-newsletter__button-svg--position {
+  margin-left: 24px;
+  position: absolute;
+  top: 13px;
+  right: 25px;
+  fill: var(--white-color);
+}
+.footer-newsletter__button {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -737,15 +729,8 @@
   margin-top: 33px;
   padding: 10px 60px 10px 40px;
 }
-.footer_newsletter-button:active {
+.footer-newsletter__button:active {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3) inset;
-}
-.footer_newsletter-button--position {
-  margin-left: 24px;
-  position: absolute;
-  top: 13px;
-  right: 25px;
-  fill: var(--white-color);
 }
 
 /* PORTFOLIO */
