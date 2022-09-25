@@ -72,6 +72,7 @@
 }
 
 .main-contact__link {
+    position: relative;
     color: var(--main-color);
     font-weight: 500;
     font-size: 14px;
@@ -148,8 +149,8 @@
     border-radius: 2px;
     width: 53px;
     height: 4px;
-    left: 362px;
-    top: 75px;
+    left: 0;
+    top: 48px;
 }
 
 
@@ -624,8 +625,8 @@
     width: 58px;
     background: var(--accent-color);
     border-radius: 2px;
-    top: 77px;
-    left: 463px
+    top: 48px;
+    left: 0;
 }
 
 .buttons-area {
