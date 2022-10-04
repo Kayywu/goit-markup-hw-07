@@ -11,7 +11,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com" /> 
@@ -25,21 +25,21 @@
     <header class="header-area">
             <div class="container site-bar">
                 <a class="logo logo--first" href="index.html">Web<span class=" logo logo--second-header">Studio</span></a>
-            <nav>
-                <ul class="main-contact">
-                    <li><a class="main-contact__link main-contact__agency" href="index.html">Agencja</a></li>
-                    <li><a class="main-contact__link" href="portfolio.html">Portfolio</a></li>
-                    <li><a class="main-contact__link main-contact__contact" href="/Kontakt">Kontakt</a></li>
+            <nav class="main-navigation">
+                <ul class="main-navigation__list">
+                    <li><a class="main-navigation__item main-navigation__item--agency" href="index.html">Agencja</a></li>
+                    <li><a class="main-navigation__item" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="main-navigation__item main-navigation__item--margin" href="/Kontakt">Kontakt</a></li>
                 </ul>
             </nav>
-            <ul class=" main-contact main-contact--margin">
-                <li><a class="main-contact__email" href="mailto:info@devstudio.com">
-                    <svg width="16" height="12" class="main-contact__icon">
+            <ul class=" main-navigation__list main-navigation__list--margin">
+                <li><a class="main-navigation__email main-navigation__item--margin" href="mailto:info@devstudio.com">
+                    <svg width="16" height="12" class="main-navigation__icon">
                         <use href="./Images/symbol-defs.svg#icon-envelop"></use>
                     </svg>
                     info@devstudio.com</a></li>
-                <li><a class="main-contact__tel" href="tel:+48111111111">
-                <svg width="10" height="16" class="main-contact__icon">
+                <li><a class="main-navigation__tel main-navigation__item--telephone-margin " href="tel:+48111111111">
+                <svg width="10" height="16" class="main-navigation__icon">
                     <use href="./Images/symbol-defs.svg#icon-mobile2"></use>
                 </svg>
                 + 48 111 111 111</a></li>
