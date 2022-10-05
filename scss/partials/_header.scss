@@ -13,7 +13,10 @@
 
 .main-navigation {
 
-   &__list {
+    display: flex;
+    align-items: center;
+
+    &__list {
     display: flex;
     list-style: none;
 }
@@ -41,16 +44,13 @@
     border-radius: 2px;
     width: 53px;
     height: 4px;
-    left: 362px;
+    left: 365px;
     top: 75px;
 }   
 
     &__item-margin {
     margin-right: 50px;
-}
-
-  
-    
+}   
 }
 
     .main-contact { 
@@ -67,6 +67,7 @@
     letter-spacing: 0.02em;
     color: var(--descriptions-color);
     text-decoration: none;
+    margin-right: 30px;
    
 
     &:hover,
@@ -75,10 +76,6 @@
     fill: var(--accent-color);
     }
 }
-
-  &__margin {
-    margin-right: auto;
-   } 
 
     &__telephone-margin {
     margin-right: 10px;

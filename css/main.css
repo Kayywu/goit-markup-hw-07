@@ -281,6 +281,10 @@
   justify-content: space-between;
 }
 
+.main-navigation {
+  display: flex;
+  align-items: center;
+}
 .main-navigation__list {
   display: flex;
   list-style: none;
@@ -307,7 +311,7 @@
   border-radius: 2px;
   width: 53px;
   height: 4px;
-  left: 362px;
+  left: 365px;
   top: 75px;
 }
 .main-navigation__item-margin {
@@ -327,13 +331,11 @@
   letter-spacing: 0.02em;
   color: var(--descriptions-color);
   text-decoration: none;
+  margin-right: 30px;
 }
 .main-contact__data:hover, .main-contact__data:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
-}
-.main-contact__margin {
-  margin-right: auto;
 }
 .main-contact__telephone-margin {
   margin-right: 10px;
