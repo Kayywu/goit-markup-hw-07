@@ -290,6 +290,7 @@
   list-style: none;
 }
 .main-navigation__item {
+  position: relative;
   color: var(--main-color);
   font-weight: 500;
   font-size: 14px;
@@ -311,8 +312,8 @@
   border-radius: 2px;
   width: 53px;
   height: 4px;
-  left: 365px;
-  top: 75px;
+  left: 0;
+  top: 50px;
 }
 .main-navigation__item-margin {
   margin-right: 50px;
