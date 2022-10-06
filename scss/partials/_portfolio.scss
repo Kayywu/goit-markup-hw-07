@@ -1,14 +1,14 @@
 /* PORTFOLIO */
 
-.main-contact__portfolio::after {
+ .main-navigation__item--portfolio::after {
     content: "";
     position: absolute;
     height: 4px;
     width: 58px;
     background: var(--accent-color);
     border-radius: 2px;
-    top: 77px;
-    left: 463px
+    top: 50px;
+    left: 0px;
 }
 
 .buttons-area {

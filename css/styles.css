@@ -607,7 +607,7 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3) inset;
 }
 
-.footer-newsletter__button-svg--position {
+.footer-newsletter__button-svg-position {
     margin-left: 24px;
     position: absolute;
     top: 13px;
