@@ -801,11 +801,15 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var();
 }
 .social-media__item:hover, .social-media__item:active {
   background-color: var(--accent-color);
   cursor: pointer;
   fill: var(--white-color);
+}
+.social-media__item--background {
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .visually-hidden {

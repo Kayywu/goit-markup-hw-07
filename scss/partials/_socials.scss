@@ -17,6 +17,7 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: var();
     }
 
    &__item:hover,
@@ -25,5 +26,8 @@
     cursor: pointer;
     fill: var(--white-color);
 }
-    }
 
+    &__item--background {
+        background: rgba(255, 255, 255, 0.1);
+    }
+    }
