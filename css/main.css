@@ -752,7 +752,7 @@
   overflow: hidden;
 }
 
-.projects-img__box--overlay {
+.projects-img__box-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -776,7 +776,7 @@
   padding-right: 45px;
 }
 
-.projects-img__box:hover .projects-img__box--overlay {
+.projects-img__box:hover .projects-img__box-overlay {
   transform: translateY(0);
 }
 
